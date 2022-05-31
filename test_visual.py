@@ -1,9 +1,8 @@
 from os import path
-import sys
 from visualFunctionDetail import PlotFunction
 
 input_path = "./data/test.csv"
-output_path=''
+output_path='./data/'
 
 def test_plot_missing_value_function():
     plot_worker = PlotFunction(
