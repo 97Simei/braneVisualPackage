@@ -27,4 +27,4 @@ jobs:
 
       - name: 'test the brane package'
         run: |
-          brane build container.yml
+          brane --help
