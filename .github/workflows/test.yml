@@ -1,4 +1,4 @@
-name: TestTitanic
+name: TestVisual
 
 on: [push]
 
