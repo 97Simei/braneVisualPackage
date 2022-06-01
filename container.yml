@@ -33,8 +33,6 @@ actions:
       - type: string
         name: title
       - type: string
-        name: plot_type
-      - type: string
         name: function_type
       - type: string
         name: output_path

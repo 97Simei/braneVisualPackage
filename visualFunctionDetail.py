@@ -9,14 +9,13 @@ from pyecharts import options as opts
 
 
 class PlotFunction:
-    def __init__(self, input_path, function_type, target_columns=None, title=None, plot_type=None, output_path=None):
+    def __init__(self, input_path, function_type, target_columns=None, title=None, output_path=None):
         self.input_path = input_path
         self.data = pd.read_csv(self.input_path) if self.input_path.split(
             '.')[-1] == 'csv' else ""
         self.function_type = function_type if function_type else 'correlation'
         self.columns = list(target_columns.split(',')) if target_columns else self.data.columns
         self.title = title
-        self.plot_type = plot_type
         self.output_path = output_path if output_path else self.input_path.rsplit(
             '/', 1)[0]
 

@@ -9,7 +9,6 @@ def test_plot_missing_value_function():
         input_path=input_path,
         title="test_sample",
         function_type='missing_value',
-        plot_type='',
         target_columns='',
         output_path=output_path
     )
@@ -20,7 +19,6 @@ def test_plot_distribution_function():
         input_path=input_path,
         title="test_sample",
         function_type='missing_value',
-        plot_type='',
         target_columns='',
         output_path=output_path
     )
@@ -31,7 +29,6 @@ def test_plot_correlation_function():
         input_path=input_path,
         title="test_sample",
         function_type='missing_value',
-        plot_type='',
         target_columns='',
         output_path=output_path
     )
