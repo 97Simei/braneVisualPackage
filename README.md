@@ -2,9 +2,13 @@
 [![DOI](https://zenodo.org/badge/497735628.svg)](https://zenodo.org/badge/latestdoi/497735628)
 ## Requirements
 pandas==1.2.4
+
 numpy==1.20.3
+
 matplotlib==3.4.2
+
 seaborn==0.11.1
+
 pyecharts==1.9.1
 ## Installation
 ```
