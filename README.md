@@ -1,5 +1,5 @@
 # Brane Visualization package
-[![DOI](https://sandbox.zenodo.org/badge/498253114.svg)](https://sandbox.zenodo.org/badge/latestdoi/498253114)
+[![DOI](https://sandbox.zenodo.org/badge/498253114.svg)]
 ## Requirements
 pandas==1.2.4
 
